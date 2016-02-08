@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18bc9c;
+  color: #F9888E;
   outline: none;
 }
 h1,
@@ -54,16 +54,16 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18bc9c;
+/*  background-color: #F9888E;*/
   color: white;
 }
 hr.star-primary {
-  border-color: #2c3e50;
+  border-color: #A991C5;
     /*#A991C5*/
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2c3e50;
+  color: #A991C5;
 }
 .img-centered {
   margin: 0 auto;
@@ -71,7 +71,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   background: white;    
-/*  background: #18bc9c;*/
+/*  background: #F9888E;*/
   color: white;
 }
 header .container {
@@ -151,7 +151,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18bc9c;
+  background: #F9888E;
   color: white;
 }
 section.success a,
@@ -159,7 +159,7 @@ section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-  color: #2c3e50;
+  color: #A991C5;
   outline: none;
 }
 @media (max-width: 767px) {
@@ -230,7 +230,7 @@ section.success a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18bc9c;
+  color: #F9888E;
   background: white;
   border: solid 2px white;
 }
@@ -278,7 +278,7 @@ section.success a.active {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18bc9c;
+  color: #F9888E;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -291,8 +291,8 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-    background-color: #A991C5;
-/*  background-color: #2c3e50;*/
+    background-color: #FDECA9;
+/*  background-color: #A991C5;*/
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -370,7 +370,7 @@ footer .footer-below {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2c3e50;
+  background-color: #A991C5;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -381,7 +381,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2c3e50;
+  background-color: #A991C5;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -392,4 +392,13 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+#team {
+    background-color: #8ECFB9;
+}
+#newstar:after {
+    background-color: #8ECFB9;
+}
+#oldstar:after {
+    background-color: #F9888E;
 }
